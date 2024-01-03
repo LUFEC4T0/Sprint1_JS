@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    @media screen and (min-width:1300px) {
+       justify-content: space-around;
+    }
+}
+
+.div_body{
+    @media screen and (min-width:1300px) {
+        width: 1300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.isoLogo{
+    width: 1.8rem;
+}
+
+.logoTipo{
+    width: 9rem;
+    height: 2.3rem;
+}
+
+.imgCreatives {
+    width: 35vh;
+}
