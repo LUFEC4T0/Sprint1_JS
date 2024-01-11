@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex flex-col justify-center items-center bg-slate-600">
+    <header class="flex justify-around bg-black p-2 w-full">
+        <div class="divImgHeader flex items-center ">
+            <img class="isoLogo" src="./Recursos Moviestack/Moviestack_isotipo.png" alt="isotipo">
+            <img class="logoTipo" src="./Recursos Moviestack/Moviestack_logotipo2.png" alt="logotipo">
+        </div>
+        <nav class="flex text-white gap-1.5 items-center">
+            <a class="border-b" href="index.html">HOME</a>
+            <a href="movies.html">MOVIES</a>
+            <a href="#">FAVS</a>
+        </nav>
+    </header>
+
+    <main class="flex justify-center p-10 gap-10" id="divDetalles">
+
+        <!-- <div class="">
+            <img class="" src="${movie.image}" alt="Imagen de la pelicula">
+            <table class="">
+                <tr>
+                    <th>Original Lenguage</th>
+                    <td>${movie.original_language}</td>
+                </tr>
+                <tr>
+                    <th>Relealse Date</th>
+                    <td>${movie.release_date}</td>
+                </tr>
+                <tr>
+                    <th>Runtime</th>
+                    <td>${movie.runtime} mins</td>
+                </tr>
+                <tr>
+                    <th>Status</th>
+                    <td>${movie.status}</td>
+                </tr>
+            </table>
+        </div>
+        <div class="">
+            <div class="">
+                <h1 class="text-white font-bold text-2xl">${movie.title}</h1>
+                <h2 class="text-white p-3">${movie.tagline}</h2>
+                <h3 class="">${movie.genres}</h3>
+                <p class="text-white">${movie.overview}</p>
+            </div>
+            <table class="">
+                <tr>
+                    <th>Vote Average</th>
+                    <td>${movie.vote_average} %</td>
+                </tr>
+                <tr>
+                    <th>Budget</th>
+                    <td>USD ${movie.budget}</td>
+                </tr>
+                <tr>
+                    <th>Revenue</th>
+                    <td>USD ${movie.revenue}</td>
+                </tr>
+            </table>
+        </div> -->
+
+    </main>
+
+    <footer class="flex justify-center bg-black h-10 items-center fixed bottom-0 w-full">
+        <div class="text-white">
+            <p>MinHub - Cohort #53</p>
+        </div>
+    </footer>
+    <script src="./js/data.js"></script>
+    <script src="./js/detalles.js"></script>
+</body>
+
+</html>

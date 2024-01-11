@@ -21,17 +21,41 @@
             <a href="#">FAVS</a>
         </nav>
     </header>
-    <div class="div_body">
+    <main class="div_body">
         <div>
             <img class="p-5" src="./Recursos Moviestack/banner_movies.png" alt="">
         </div>
+
+        <search class="flex gap-5 justify-center p-5 pt-0">
+
+            <select id="opciones" name="opciones" class="w-52">
+                <option value="">All Categories</option>
+                <option value="Horror">Horror</option>
+                <option value="Mystery">Mystery</option>
+                <option value="Thriller">Thriller</option>
+                <option value="Action">Action</option>
+                <option value="Drama">Drama</option>
+                <option value="Adventure">Adventure</option>
+                <option value="Crime">Crime</option>
+                <option value="Fantasy">Fantasy</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Animation">Animation</option>
+                <option value="Family">Family</option>
+                <option value="Romance">Romance</option>
+                <option value="Science Fiction">Science Fiction</option>
+                <option value="History">History</option>
+            </select>
+            <input id="inputBusquedaPeliculas" type="search" class="w-52" placeholder="buscar">
+
+        </search>
         <div class="flex flex-wrap justify-center gap-5 pb-5" id="div_movies">
         </div>
-        <footer class="flex justify-center bg-black h-10 items-center bottom-0 w-full">
-            <div class="text-white">
-                <p>MinHub - Cohort #53</p>
-            </div>
-    </div>
+    </main>
+    <footer class="flex justify-center bg-black h-10 items-center bottom-0 w-full">
+        <div class="text-white">
+            <p>MinHub - Cohort #53</p>
+        </div>
+        </div>
     </footer>
     <script src="./js/data.js"></script>
     <script src="./js/index.js"></script>
