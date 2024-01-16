@@ -1,3 +1,4 @@
+import { movies } from "./index.js"
 const queryParams = new URLSearchParams(location.search) 
 const id = queryParams.get('id')
 const movie = movies.find(movie => movie.id == id)
